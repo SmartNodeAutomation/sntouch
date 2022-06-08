@@ -71738,7 +71738,7 @@ q=J.e(s.gh(s),r)
 r=J.bC(q)
 r.n(q,b,h.c)
 A.SY().$1("switchData: "+A.h(q))
-if(c==="TwoSwitchLayout"){e=e.x1
+if(c==="2S"){e=e.x1
 c=d.gh(d)
 b=r.i(q,1)
 s=r.i(q,0)
@@ -71749,7 +71749,7 @@ d=d.gh(d)
 b=r.i(q,1)
 b=A.jL(r.i(q,0),b)
 J.ae(A.a(e.u$,f),d,b)
-e.v$.C(e.gh(e))}else if(c==="TwoSwitchOneRegulatorLayout"){e=e.x1
+e.v$.C(e.gh(e))}else if(c==="2S1R"){e=e.x1
 c=d.gh(d)
 b=r.i(q,1)
 s=r.i(q,0)
@@ -71760,7 +71760,7 @@ d=d.gh(d)
 b=r.i(q,1)
 b=A.jM(r.i(q,0),b)
 J.ae(A.a(e.u$,f),d,b)
-e.v$.C(e.gh(e))}else if(c==="FourSwitchLayout"){e=e.x1
+e.v$.C(e.gh(e))}else if(c==="4S"){e=e.x1
 c=d.gh(d)
 b=r.i(q,3)
 s=r.i(q,2)
@@ -71775,7 +71775,7 @@ s=r.i(q,2)
 p=r.i(q,1)
 b=A.jK(r.i(q,0),p,s,b)
 J.ae(A.a(e.u$,f),d,b)
-e.v$.C(e.gh(e))}else if(c==="FourSwitchOneRegulator"){e=e.x1
+e.v$.C(e.gh(e))}else if(c==="4S1R"){e=e.x1
 c=d.gh(d)
 b=r.i(q,3)
 s=r.i(q,2)
@@ -71790,7 +71790,7 @@ s=r.i(q,2)
 p=r.i(q,1)
 b=A.mS(r.i(q,0),p,s,b)
 J.ae(A.a(e.u$,f),d,b)
-e.v$.C(e.gh(e))}else if(c==="EightSwitchLayout"){e=e.x1
+e.v$.C(e.gh(e))}else if(c==="8S"){e=e.x1
 c=d.gh(d)
 b=r.i(q,7)
 s=r.i(q,6)
@@ -71813,7 +71813,7 @@ m=r.i(q,2)
 l=r.i(q,1)
 b=A.DZ(r.i(q,0),l,m,n,o,p,s,b)
 J.ae(A.a(e.u$,f),d,b)
-e.v$.C(e.gh(e))}else if(c==="EightSwitchOneRegulatorLayout"){e=e.x1
+e.v$.C(e.gh(e))}else if(c==="8S1R"){e=e.x1
 c=d.gh(d)
 b=r.i(q,7)
 s=r.i(q,6)
@@ -71836,7 +71836,7 @@ m=r.i(q,2)
 l=r.i(q,1)
 b=A.E_(r.i(q,0),l,m,n,o,p,s,b)
 J.ae(A.a(e.u$,f),d,b)
-e.v$.C(e.gh(e))}else if(c==="TenSwitchTwoRegulatorLayout"){e=e.x1
+e.v$.C(e.gh(e))}else if(c==="10S2R"){e=e.x1
 c=d.gh(d)
 b=r.i(q,9)
 s=r.i(q,8)
@@ -71880,28 +71880,28 @@ o=$.dC
 return A.aM(A.cn(A.b([r,A.cV(A.b([A.bb(!1,!0,A.aM(A.be(o[q.r],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.Wg(a,m),n,n,n),A.bb(!1,!0,A.aM(A.be(o[q.w],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.Wh(a,m),n,n,n),A.bb(!1,!0,A.aM(A.be(o[q.x],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.Wi(a,m),n,n,n),A.bb(!1,!0,A.aM(A.be(o[q.y],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.Wj(a,m),n,n,n)],p),B.q,B.U,B.r)],p),B.q,B.U,B.r),100,300)},
 $S:27}
 A.Wc.prototype={
-$0(){this.a.bt(this.b,"EightSwitchLayout",0)},
+$0(){this.a.bt(this.b,"8S",0)},
 $S:0}
 A.Wd.prototype={
-$0(){this.a.bt(this.b,"EightSwitchLayout",1)},
+$0(){this.a.bt(this.b,"8S",1)},
 $S:0}
 A.We.prototype={
-$0(){this.a.bt(this.b,"EightSwitchLayout",2)},
+$0(){this.a.bt(this.b,"8S",2)},
 $S:0}
 A.Wf.prototype={
-$0(){return this.a.bt(this.b,"EightSwitchLayout",3)},
+$0(){return this.a.bt(this.b,"8S",3)},
 $S:0}
 A.Wg.prototype={
-$0(){return this.a.bt(this.b,"EightSwitchLayout",4)},
+$0(){return this.a.bt(this.b,"8S",4)},
 $S:0}
 A.Wh.prototype={
-$0(){return this.a.bt(this.b,"EightSwitchLayout",5)},
+$0(){return this.a.bt(this.b,"8S",5)},
 $S:0}
 A.Wi.prototype={
-$0(){return this.a.bt(this.b,"EightSwitchLayout",6)},
+$0(){return this.a.bt(this.b,"8S",6)},
 $S:0}
 A.Wj.prototype={
-$0(){return this.a.bt(this.b,"EightSwitchLayout",7)},
+$0(){return this.a.bt(this.b,"8S",7)},
 $S:0}
 A.wb.prototype={
 N(a,b){return A.eb(new A.Wt(this,b),t.T)}}
@@ -71922,28 +71922,28 @@ m=$.dC
 return A.aM(A.cV(A.b([B.ai,r,B.lE,o,B.lE,n,B.lE,A.cn(A.b([A.bb(!1,!0,A.aM(A.be(m[q.x],s,l,l),20,20),l,!0,l,l,l,l,l,l,l,l,l,new A.Wr(a,k),l,l,l),A.bb(!1,!0,A.aM(A.be(m[q.y],s,l,l),20,20),l,!0,l,l,l,l,l,l,l,l,l,new A.Ws(a,k),l,l,l)],p),B.q,B.U,B.r),B.b1,A.cn(A.b([A.d_(s,l,5),B.aa,A.d_(s,l,4.5),B.aa,A.d_(s,l,4),B.aa,A.d_(s,l,3.5),B.aa,A.d_(s,l,3)],p),B.q,B.bR,B.r),B.b1,A.cn(A.b([A.k3(B.d3,s,20),A.k3(B.d2,s,20)],p),B.q,B.U,B.r),B.ai],p),B.q,B.O,B.r),100,300)},
 $S:27}
 A.Wl.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",0)},
+$0(){this.a.bt(this.b,"8S1R",0)},
 $S:0}
 A.Wm.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",1)},
+$0(){this.a.bt(this.b,"8S1R",1)},
 $S:0}
 A.Wn.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",2)},
+$0(){this.a.bt(this.b,"8S1R",2)},
 $S:0}
 A.Wo.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",3)},
+$0(){this.a.bt(this.b,"8S1R",3)},
 $S:0}
 A.Wp.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",4)},
+$0(){this.a.bt(this.b,"8S1R",4)},
 $S:0}
 A.Wq.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",5)},
+$0(){this.a.bt(this.b,"8S1R",5)},
 $S:0}
 A.Wr.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",6)},
+$0(){this.a.bt(this.b,"8S1R",6)},
 $S:0}
 A.Ws.prototype={
-$0(){this.a.bt(this.b,"EightSwitchOneRegulatorLayout",7)},
+$0(){this.a.bt(this.b,"8S1R",7)},
 $S:0}
 A.wG.prototype={
 N(a,b){return A.eb(new A.XZ(this,b),t.T)}}
@@ -71960,16 +71960,16 @@ o=$.dC
 return A.aM(A.cn(A.b([B.f5,r,B.c2,A.cV(A.b([B.ai,A.bb(!1,!0,A.aM(A.be(o[q.e],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.XX(a,m),n,n,n),B.c2,A.bb(!1,!0,A.aM(A.be(o[q.f],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.XY(a,m),n,n,n),B.ai],p),B.q,B.O,B.r),B.f5],p),B.q,B.U,B.r),100,100)},
 $S:27}
 A.XV.prototype={
-$0(){this.a.bt(this.b,"FourSwitchLayout",0)},
+$0(){this.a.bt(this.b,"4S",0)},
 $S:0}
 A.XW.prototype={
-$0(){this.a.bt(this.b,"FourSwitchLayout",1)},
+$0(){this.a.bt(this.b,"4S",1)},
 $S:0}
 A.XX.prototype={
-$0(){this.a.bt(this.b,"FourSwitchLayout",2)},
+$0(){this.a.bt(this.b,"4S",2)},
 $S:0}
 A.XY.prototype={
-$0(){this.a.bt(this.b,"FourSwitchLayout",3)},
+$0(){this.a.bt(this.b,"4S",3)},
 $S:0}
 A.wH.prototype={
 N(a,b){return A.eb(new A.Y3(this,b),t.T)}}
@@ -71986,16 +71986,16 @@ o=$.dC
 return A.aM(A.cV(A.b([B.b1,r,B.QM,A.cn(A.b([A.bb(!1,!0,A.aM(A.be(o[q.e],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.Y1(a,m),n,n,n),A.bb(!1,!0,A.aM(A.be(o[q.f],s,n,n),20,20),n,!0,n,n,n,n,n,n,n,n,n,new A.Y2(a,m),n,n,n)],p),B.q,B.U,B.r),B.b1,A.cn(A.b([A.d_(s,n,5),B.aa,A.d_(s,n,4.5),B.aa,A.d_(s,n,4),B.aa,A.d_(s,n,3.5),B.aa,A.d_(s,n,3)],p),B.q,B.bR,B.r),B.b1,A.cn(A.b([A.k3(B.d3,s,20),A.k3(B.d2,s,20)],p),B.q,B.U,B.r),B.b1],p),B.q,B.O,B.r),100,200)},
 $S:27}
 A.Y_.prototype={
-$0(){this.a.bt(this.b,"FourSwitchOneRegulator",0)},
+$0(){this.a.bt(this.b,"4S1R",0)},
 $S:0}
 A.Y0.prototype={
-$0(){this.a.bt(this.b,"FourSwitchOneRegulator",1)},
+$0(){this.a.bt(this.b,"4S1R",1)},
 $S:0}
 A.Y1.prototype={
-$0(){this.a.bt(this.b,"FourSwitchOneRegulator",2)},
+$0(){this.a.bt(this.b,"4S1R",2)},
 $S:0}
 A.Y2.prototype={
-$0(){this.a.bt(this.b,"FourSwitchOneRegulator",3)},
+$0(){this.a.bt(this.b,"4S1R",3)},
 $S:0}
 A.A9.prototype={
 N(a,b){return A.eb(new A.a8b(this,b),t.T)}}
@@ -72020,34 +72020,34 @@ r=$.dC
 return A.aM(A.cV(A.b([m,o,A.cV(A.b([q,B.w_,A.cn(A.b([A.bb(!1,!0,A.aM(A.be(r[n.z],s,l,l),20,20),l,!0,l,l,l,l,l,l,l,l,l,new A.a89(a,p),l,l,l),A.bb(!1,!0,A.aM(A.be(r[n.Q],s,l,l),20,20),l,!0,l,l,l,l,l,l,l,l,l,new A.a8a(a,p),l,l,l)],k),B.q,B.U,B.r),B.b1,A.cn(A.b([A.d_(s,l,5),B.aa,A.d_(s,l,4.5),B.aa,A.d_(s,l,4),B.aa,A.d_(s,l,3.5),B.aa,A.d_(s,l,3)],k),B.q,B.bR,B.r),B.ai,A.cn(A.b([A.k3(B.d3,s,20),A.k3(B.d2,s,20)],k),B.q,B.U,B.r),B.ai],k),B.q,B.O,B.r)],k),B.q,B.O,B.r),100,400)},
 $S:27}
 A.a81.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",0)},
+$0(){this.a.bt(this.b,"10S2R",0)},
 $S:0}
 A.a82.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",1)},
+$0(){this.a.bt(this.b,"10S2R",1)},
 $S:0}
 A.a83.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",2)},
+$0(){this.a.bt(this.b,"10S2R",2)},
 $S:0}
 A.a84.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",3)},
+$0(){this.a.bt(this.b,"10S2R",3)},
 $S:0}
 A.a85.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",4)},
+$0(){this.a.bt(this.b,"10S2R",4)},
 $S:0}
 A.a86.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",5)},
+$0(){this.a.bt(this.b,"10S2R",5)},
 $S:0}
 A.a87.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",6)},
+$0(){this.a.bt(this.b,"10S2R",6)},
 $S:0}
 A.a88.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",7)},
+$0(){this.a.bt(this.b,"10S2R",7)},
 $S:0}
 A.a89.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",8)},
+$0(){this.a.bt(this.b,"10S2R",8)},
 $S:0}
 A.a8a.prototype={
-$0(){this.a.bt(this.b,"TenSwitchTwoRegulatorLayout",9)},
+$0(){this.a.bt(this.b,"10S2R",9)},
 $S:0}
 A.Aw.prototype={
 N(a,b){return A.eb(new A.a9u(this,b),t.T)}}
@@ -72061,10 +72061,10 @@ q=this.a
 return A.aM(A.cV(A.b([B.lD,A.bb(!1,!0,A.aM(A.be(r[q.c],s,p,p),20,20),p,!0,p,p,p,p,p,p,p,p,p,new A.a9s(a,o),p,p,p),B.c2,A.bb(!1,!0,A.aM(A.be(r[q.d],s,p,p),20,20),p,!0,p,p,p,p,p,p,p,p,p,new A.a9t(a,o),p,p,p),B.lD],t.D),B.q,B.O,B.r),100,100)},
 $S:27}
 A.a9s.prototype={
-$0(){this.a.bt(this.b,"TwoSwitchLayout",0)},
+$0(){this.a.bt(this.b,"2S",0)},
 $S:0}
 A.a9t.prototype={
-$0(){this.a.bt(this.b,"TwoSwitchLayout",1)},
+$0(){this.a.bt(this.b,"2S",1)},
 $S:0}
 A.Ax.prototype={
 N(a,b){return A.eb(new A.a9x(this,b),t.T)}}
@@ -72078,10 +72078,10 @@ q=t.D
 return A.aM(A.cn(A.b([B.f5,A.cV(A.b([B.ai,A.bb(!1,!0,A.aM(A.be($.dC[r.c],s,p,p),20,20),p,!0,p,p,p,p,p,p,p,p,p,new A.a9v(a,o),p,p,p),B.c2,A.aM(A.k3(B.d3,s,20),20,20),B.ai],q),B.q,B.O,B.r),B.c2,A.cV(A.b([B.ai,A.bb(!1,!0,A.aM(A.be($.dC[r.d],s,p,p),20,20),p,!0,p,p,p,p,p,p,p,p,p,new A.a9w(a,o),p,p,p),B.c2,A.aM(A.k3(B.d2,s,20),20,20),B.ai],q),B.q,B.O,B.r),B.f5],q),B.q,B.U,B.r),100,100)},
 $S:27}
 A.a9v.prototype={
-$0(){this.a.bt(this.b,"TwoSwitchOneRegulatorLayout",0)},
+$0(){this.a.bt(this.b,"2S1R",0)},
 $S:0}
 A.a9w.prototype={
-$0(){return this.a.bt(this.b,"TwoSwitchOneRegulatorLayout",1)},
+$0(){return this.a.bt(this.b,"2S1R",1)},
 $S:0}
 A.agZ.prototype={
 $2(a,b){var s=this.a.ax
