@@ -74193,7 +74193,7 @@ if(n.gh(n)){n=a.to
 n=n.gh(n)?B.I:B.u
 p.push(new A.ct("10S 2R",B.au,new A.a9V(s,a,r),B.x,n,o))}n=a.x1
 n=n.gh(n)?B.I:B.u
-p.push(new A.ct("Socket",A.bb("assets/images/socket.png",A.a7(this.c).k3,20,20),new A.a9W(s,a,r),B.x,n,o))
+p.push(new A.ct("Socket",A.bb("assets/images/socket.png",A.a7(this.c).as.c,20,20),new A.a9W(s,a,r),B.x,n,o))
 return A.xL(p,o,o,!1)},
 $S:396}
 A.a9P.prototype={
