@@ -10,23 +10,23 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icons/sn_logo-128pt.png",
-      "sizes": "128x128",
+      "src": "icons/sn_icon_192.png",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/sn_logo-512pt.png",
+      "src": "icons/sn_icon_512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "icons/sn_logo-128pt.png",
-      "sizes": "128x128",
+      "src": "icons/sn_icon_192.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "icons/sn_logo-512pt.png",
+      "src": "icons/sn_icon_512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
